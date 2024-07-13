@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mypackage
+Version: 0.1
+Summary: EDSA example python package
+Home-page: https://github.com/tashca/mypackage
+Author: Natasha Lusie
+Author-email: tashca.k@gmail.com
+License: MIT
+Requires-Dist: numpy
+
+# mypackage
+This library was created as an example of ow to publish your own Python package.
+
+## building thi package locally
+`python setup.py sdist`
+
+## installing this package from Github
+`pip install git+https://github.com/tashca/mypackage.git`
+
+## updating this package from Github
+`pip install --upgrade git+https://github.com/tashca/mypackage.git`
